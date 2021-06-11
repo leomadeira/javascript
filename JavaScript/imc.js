@@ -13,10 +13,5 @@ else if(imc>10 || imc<=12.9){
 else if(imc>18.5 || imc<=24.9){
     console.log('Tu és foda, parceiro!')
 }
-
-
-
-
-
 console.log(imc)
 
