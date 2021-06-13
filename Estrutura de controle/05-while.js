@@ -5,7 +5,7 @@ let gerarNumeroAleatorio = (min,max) =>{
 
 let laco = 0
 
-while (laco == -1) {
-    laco = gerarNumeroAleatorio(-1,10)
+while (laco != -1) {
+    laco = gerarNumeroAleatorio(-2,10)
     console.log(laco)
 }
