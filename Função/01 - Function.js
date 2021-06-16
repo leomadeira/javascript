@@ -4,7 +4,7 @@
 }
 // function anonimo literal dentro de uma variavel
 {
-    let nomeDaFuncao = function () { /***/ }
+    let nomeDaFuncao = function () { /***/ }  // esse é um jeito bacana, mas que nao uso muito
 }
 
 // tbm podemos armazenar em um objeto
@@ -18,3 +18,6 @@ function primeiraFunc(segundaFunc) {
 }
 primeiraFunc(function () { console.log('Executando...') } )
 /*************************************************** */
+
+
+let nomeDaVariavel = (x,y) =>  x+y // essa é a forma que acho mais interessante para criar uma função. Lembrando que criando desssa forma, não precisamos colocar Return e nem chaves {}
