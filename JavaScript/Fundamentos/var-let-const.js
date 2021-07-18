@@ -12,9 +12,9 @@ var num1 = 50 // Podemos declarar o mesmo nome de uma var para substituir o valo
 num2 = 40 // não pode repetir o let, apenas colocar o num2 e o novo valor da variável, senão vai da erro no código
 //num3 = 50 // não dá para mudar o valor de uma constante, ela sempre será 30.
 
-console.log(num1,num2)
+console.log(num1, num2)
 
 console.log(typeof num1) //''typeof'' diz qual é o tipo da variavel(se é Number, string, boolean)
 
-console.log(num3.toFixed(2)) // toFixed reduz a quantidade de casas decimais o teu print vai ter. no caso eu coloquei 2 e so vai aparecer 30.75. 
+console.log(num3.toFixed(2)) // toFixed reduz a quantidade de casas decimais o teu print vai ter. no caso eu coloquei 2 e so vai aparecer 30.75.
 console.log(num3.toString(2)) // toString(2) transforma o valor em binário
