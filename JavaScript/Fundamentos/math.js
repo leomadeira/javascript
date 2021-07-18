@@ -1,5 +1,5 @@
 const raio = 5.6
-const area = Math.PI * Math.pow(raio,2) // Math esta colocando o valor de PI=> (pi*5.6²) <= e jogando a potencia de 2 com o pow(potencia)
+const area = Math.PI * Math.pow(raio, 2) // Math esta colocando o valor de PI=> (pi*5.6²) <= e jogando a potencia de 2 com o pow(potencia)
 
 const x = 3.9
 console.log(Math.ceil(x)) // arredonda o valor de x p/ cima de 3.9 para 4
