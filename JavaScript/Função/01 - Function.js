@@ -8,7 +8,7 @@
 {
   let nomeDaFuncao = function () {
     /***/
-  } // esse é um jeito bacana, mas que nao uso muito
+  } // esse é um jeito bacana, nao uso muito
 }
 
 // tbm podemos armazenar em um objeto
