@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/JavaScript/DOM/styles/styles.css">
+    <title>Selecting Elements 01</title>
+  </head>
+  <body class="conteudo exercicio">
+    <!--Esses 3 elementos é o HTML do site-->
+    <div id="primeiro">#Primeiro</div>
+    <div>Segundo</div>
+    <div class="terceiro ultimo">Terceiro .ultimo</div>
+
+    <!--JavaScript-->
+    <script>
+      document.getElementById('primeiro').classList.add('destaque') // Coloquei o atributo destaque que esta no css nesse ID
+      let divs = document.getElementsByClassName('div') 
+      Array.from(divs).forEach(e => e.classList.remove('destaque')) // Coloquei o valor div dentro do variavel divs e criei uma array para remover a class 'destaque'
+
+    </script>
+  </body>
+</html>
