@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  background-color: rgb(65, 98, 57);
+  color: white;
+}
+
+#primeiro{
+  margin: 50px auto;
+  text-align: center;
+  padding: 50px;
+  background-color: rgb(54, 72, 100);
+  width: 300px;
+  font-size: 30px;
+  border: solid 4px black;
+  box-shadow: 4px 4px 4px rgba(3, 3, 26, 0.589);
+}
+
+div{
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+  padding: 40px;
+  background-color: rgb(100, 95, 54);
+  width: 300px;
+  font-size: 30px;
+  border: solid 4px black;
+  box-shadow: 4px 4px 4px rgba(3, 3, 26, 0.589);
+}
+
+.terceiro{
+  margin: 50px auto;
+  text-align: center;
+  padding: 40px;
+  background-color: rgb(100, 54, 79);
+  width: 300px;
+  font-size: 30px;
+  border: solid 4px black;
+  box-shadow: 4px 4px 4px rgba(3, 3, 26, 0.589);
+}
+
+.exercicio .destaque{
+  color: greenyellow;
+  border: 4px solid greenyellow !important;
+  background-color: rgb(103, 122, 138) !important;
+}
