@@ -1,4 +1,4 @@
 # JavaScript
- Fundamentos, estruturas, função, array e etc...
- Atividades praticas detalhadas e comentadas para todo mundo entender cada tag,
- bons estudos, espero que te ajude.
+Fundamentals, structures, function, array...
+Detailed and commented practical activities for everyone to understand each tag,
+good studies, hope it helps you.
