@@ -1,4 +1,4 @@
-function tratarErro(erro) {
+function tratarErro(erro){
   throw {
     name: erro.name,
     msg: erro.message,
@@ -6,7 +6,7 @@ function tratarErro(erro) {
   }
 }
 
-function imprimirNome(obj) {
+function imprimirNome(obj){
   try {
     // try: caso o programa nao tenha erro, o programa é executado normalmente
     console.log(obj.name.toUpperCase() + '!!!')
@@ -19,6 +19,6 @@ function imprimirNome(obj) {
   }
 }
 
-const obj = { n: 'Leonardo' } // Escreva name no lugar de N para o programa executar corretamente.
+const obj = {n: 'Leonardo' } // Escreva name no lugar de N para o programa executar corretamente.
 
 imprimirNome(obj)
