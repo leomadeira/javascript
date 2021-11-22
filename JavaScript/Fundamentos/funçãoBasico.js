@@ -8,7 +8,7 @@ function soma2(x, y) {
 }
 soma2(5, 5) // chamando a função
 
-/***************************************** */
+/***************************************************************/
 
 const imprimirSoma = function (x, y) {
   // mais uma forma de criar uma função
@@ -16,6 +16,7 @@ const imprimirSoma = function (x, y) {
 }
 imprimirSoma(50, 50)
 
+/***************************************************************/
 /***********  Outra forma de criar função(arrow)   *************/
 
 let soma3 = (x, y) => x + y // farma abreviada para criar uma função
