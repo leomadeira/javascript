@@ -1,6 +1,6 @@
 import message from "./message.js";
 
-const message = () =>{
+const message = () => {
     const salario = 9000
     const ano = 2021
     const empresa = 'Xoogli'
