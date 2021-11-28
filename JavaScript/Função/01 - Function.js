@@ -1,9 +1,11 @@
 // Function anonimo literal
+
 {
   function nomeDaFuncaoLiteral() {
     return `Qualquer coisa` // chamando essa função ela retorna essa string
   } // anonimo pq dentro de () não tem nada
 }
+
 // function anonimo literal dentro de uma variavel
 {
   let nomeDaFuncaoAnonimoLiteral = function () {
@@ -17,6 +19,7 @@ const Obj = {}
 Obj.falar = function () {
   return 'Olá, mundo!'
 }
+
 console.log(Obj.falar())
 
 /***********************************/
@@ -24,6 +27,7 @@ console.log(Obj.falar())
 function primeiraFunc(segundaFunc) {
   segundaFunc()
 }
+
 
 primeiraFunc(function () {
   console.log('Executando...')
