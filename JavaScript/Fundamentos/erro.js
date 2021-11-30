@@ -20,5 +20,4 @@ function imprimirNome(obj){
 }
 
 const obj = {n: 'Leonardo' } // Escreva name no lugar de N para o programa executar corretamente.
-
 imprimirNome(obj)
