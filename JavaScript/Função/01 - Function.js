@@ -1,5 +1,4 @@
 // Function anonimo literal
-
 {
   function nomeDaFuncaoLiteral() {
     return `Qualquer coisa` // chamando essa função ela retorna essa string
@@ -13,8 +12,8 @@
   } // esse é um jeito bacana, nao uso muito
 }
 
-// tbm podemos armazenar em um objeto
 
+// tbm podemos armazenar em um objeto
 const Obj = {}
 Obj.falar = function () {
   return 'Olá, mundo!'
@@ -23,11 +22,11 @@ Obj.falar = function () {
 console.log(Obj.falar())
 
 /***********************************/
+
 // passar função como parametro
 function primeiraFunc(segundaFunc) {
   segundaFunc()
 }
-
 
 primeiraFunc(function () {
   console.log('Executando...')
@@ -35,7 +34,6 @@ primeiraFunc(function () {
 
 /****************************************************/
 //Arrow function:
-
 let nomeDaVariavel = (x, y) => x + y // essa é a forma que acho mais interessante para criar uma função. Lembrando que criando desssa forma, não precisamos colocar Return e nem chaves {}
 
 
