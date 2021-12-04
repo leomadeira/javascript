@@ -1,3 +1,4 @@
+
 // a² = b² + c²
 function calcPitagoras(b, c) {
   // Parametro é o valor de 'B' e 'C'
@@ -7,8 +8,8 @@ function calcPitagoras(b, c) {
 }
 calcPitagoras(21, 28)
 
-// Eu poderia resolver desta outra forma aqui tbm
 
+// Eu poderia resolver desta outra forma aqui tbm
 const calcPitagoras2 = (b, c, a) => {
   a = b ** 2 + c ** 2
   a = a ** 0.5
