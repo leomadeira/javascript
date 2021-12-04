@@ -1,4 +1,5 @@
 const nome = 'Leonardo'
+
 console.log(nome.charAt(4)) // vai me da o 4° número da variável nome(letra a) // COMEÇA COM O NUMERO '0'
 console.log(nome.toUpperCase()) // TODAS AS LETRAS EM MAIÚSCULA
 console.log(nome.toLowerCase()) // todas as letras em minúscula
