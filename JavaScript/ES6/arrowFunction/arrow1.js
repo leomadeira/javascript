@@ -3,7 +3,6 @@ function hello() {
     return (`Hello, World`)
 }
 //********************************************************************************************************/
-
 //ES6 Com função de seta:
 helloArrow = () => {
     return `Hello, World! Arrow`
