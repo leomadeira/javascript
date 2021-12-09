@@ -4,7 +4,6 @@
 // No React, map()pode ser usado para gerar listas.
 
 const myArray = ['apple', 'banana', 'orange'];
-
 const myList = myArray.map((item) => <p>{item}</p>)
 
 //Esse metodo criará uma lista em html os valores que estão dentro da myArray respectivamente.
