@@ -30,7 +30,5 @@ const ObjSobrenome = {
     userS3:'Ipsum',
     userS4:'Losum' //Mistura de lorem com ipsum
 }
-
 const ObjAllName = { ...ObjName, ...ObjSobrenome}
-
 console.log(ObjAllName)
