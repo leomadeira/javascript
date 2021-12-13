@@ -8,11 +8,8 @@ console.log(array) // aqui mostra que um novo valor foi colocado
 console.log(array.length) //mostra o ultimo valor da array
 
 array.push(6) // esta empurrando um novo valor na array. push ele joga no ultimo espaço da array, diferente do primeiro, que pode escolher em que fila o numero 5 pode ficar
-
 console.log(array.length) //mostra o ultimo valor da array
-
 console.log(array)
-
 console.log(array.pop()) // pop remove o ultimo valor da array que no caso é o elemento 6
 console.log(array)
 
