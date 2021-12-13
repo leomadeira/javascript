@@ -11,6 +11,7 @@ class Car {
 //Observe o caso do nome da classe. Começamos o nome, "Carro", com um caractere maiúsculo. Esta é uma convenção de nomenclatura padrão para classes.
 
 //Crie um objeto chamado "mycar" com base na classe Car:
+
 const mycar = new Car("Lamborghini");
 
 //****************************************************************************************************************************/
