@@ -17,7 +17,6 @@ function noticiaRuim(nota) {
 }
 
 noticiaBoa(10)
-
 /*********************************************************************/
 if (x === 10) {
   console.log('Hello')
