@@ -8,6 +8,7 @@ class Car {
     }
 }
 
+
 //Obs:
 //A função construtora é chamada automaticamente quando o objeto é inicializado.
 
