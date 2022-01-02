@@ -37,13 +37,11 @@ const vehiclesClassFunc = {
 }
 
 myVehicle(vehiclesClassFunc);
-
 function myVehicle({type, color, brand, model}) {
     const message = `My ${type} is a ${color} ${brand} ${model}`
 }
 
 //Outro exemplo:
-
 const vehicleOne = {
     brand: 'Ford',
     model: 'Mustang',
@@ -54,11 +52,11 @@ const vehicleOne = {
       city: 'Houston',
       state: 'Texas',
       country: 'USA'
-    }
-  }
+   }
+}
   
-  myVehicle(vehicleOne)
+myVehicle(vehicleOne)
 
-  function myVehicle({ model, registration: { state } }) {
-    const message =  `My ${model} is registered in ${state}`;
-  }
+function myVehicle({ model, registration: { state } }) {
+  const message =  `My ${model} is registered in ${state}`;
+}
