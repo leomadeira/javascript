@@ -26,6 +26,7 @@ console.log(`Segundo ex: ${n}, ${p}`)
   const {
     endereco: { cidade: c, estado: e }
   } = pessoa // nesse ex, eu peguei duas variaveis dentro de um objeto
+  
   const { nome } = pessoa
   console.log(nome)
   console.log(`Cidade: ${c}/${e}`)

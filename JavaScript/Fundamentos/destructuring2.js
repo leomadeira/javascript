@@ -4,6 +4,7 @@ const [a] = [10] // array simples com destructuring
 console.log(a)
 
 const [b, c, d, e] = [4, 6, 7, 2]
+
 console.log(b) // B pegou apenas o primeiro elemento
 // observe que desta forma, criamos varios nomes de viriaveis e varios dados. assim não precisamos criar varios consts.
 

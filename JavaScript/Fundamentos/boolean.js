@@ -3,6 +3,7 @@ const y = 15
 const i = 30
 const j = -5
 
+
 console.log(x > j) // Maior que '>'
 console.log(x < j) // Menor que '<'
 console.log(x >= j) // Maior ou igual '>='
