@@ -9,6 +9,7 @@ function soma2(x, y) {
 soma2(5, 5) // chamando a função
 
 /***************************************************************/
+
 const imprimirSoma = function (x, y) {
   // mais uma forma de criar uma função
   console.log(x + y)
@@ -20,6 +21,7 @@ imprimirSoma(50, 50)
 let soma3 = (x, y) => x + y // farma abreviada para criar uma função
 console.log(soma3(4, 4))
 
-let soma4 = (x, y) => console.log(`${x} + ${y} = ${x + y}`) // forma que eu recomendo criar uma função, mais simples e objtivo
+let soma4 = (x, y) => console.log(`${x} + ${y} = ${x + y}`) // forma que eu recomendo criar uma função, mais simples e objetiva
 soma4(15, 15)
-// esse tipo de função deve ser criado quando a função so deve ter uma linha, e nao precisa colocar um return para retornar o valor. desta forma a função ja retorna automaticamente sem as chaves('{}').
+
+// esse tipo de função deve ser criado quando a função só deve ter uma linha, e não precisa colocar um return para retornar o valor. desta forma a função já retorna automaticamente sem as chaves('{}').
