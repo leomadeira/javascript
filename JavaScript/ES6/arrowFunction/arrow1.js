@@ -8,6 +8,7 @@ function hello() {
 helloArrow = () => {
     return `Hello, World! Arrow`
 }
+
 //Obs:
 // Ele fica mais curto! Se a função tiver apenas uma instrução e a instrução retornar um valor, você pode remover os colchetes e a returnpalavra-chave:
 helloArrow2 = () => `Hello, World! Arrow2` //isso funciona apenas se a função tiver apenas uma instrução.
