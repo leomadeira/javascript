@@ -30,3 +30,43 @@ console.log(endereco)
 
 //enums
 
+enum Cor {
+    Cinza,    //0
+    Verde,    //1
+    Azul,     //2
+    Laranja,  //3
+    Amarelo,  //4
+    Vermelho, //5
+    Roxo = 10,//10 Observe que mudei o valor da key do objeto
+    Branco    //11
+}
+
+let minhaCor: Cor = Cor.Verde
+console.log(Cor.Azul)
+console.log(Cor.Roxo)
+console.log(Cor.Branco) 
+
+//any
+
+let carro: any = 'BMW'
+console.log(carro)
+carro = { marca: 'BMW', ano: 2009}
+
+//função
+
+function retornaMeuNome(): string{
+    return nome
+}
+
+console.log(retornaMeuNome())
+
+function digaOi(): void{
+    console.log('Oi')
+}
+digaOi()
+
+function multiplicar(n1: number, n2: number): number{
+    return n1*n2
+}
+
+console.log(multiplicar(5,5))
