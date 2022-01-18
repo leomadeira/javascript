@@ -117,3 +117,31 @@ const produto ={
 
 produto.validarProduto()
 
+//null
+
+let altura = 12
+//altura = null
+
+let alturaOpcional: null | number = 12
+alturaOpcional= null
+type Contato = {
+    nome: string,
+    tel1: string,
+    tel2: string | null
+}
+
+const contato1: Contato = {
+    nome: 'Fulano',
+    tel1: '0000-0000',
+    tel2: null
+}
+
+console.log(contato1.nome)
+console.log(contato1.tel1)
+console.log(contato1.tel2)
+
+let podeSerNulo = null
+//podeSerNulo = 12
+console.log(podeSerNulo)
+//podeSerNulo = 'abc'
+console.log(podeSerNulo)
