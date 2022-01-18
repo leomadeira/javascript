@@ -145,3 +145,20 @@ let podeSerNulo = null
 console.log(podeSerNulo)
 //podeSerNulo = 'abc'
 console.log(podeSerNulo)
+
+//Desafio, atribuir os valores em todas as variaveis
+let contaBancaria = {
+    saldo: 3456,
+    depositar(valor){
+        this.saldo += valor
+    }
+}
+
+let correntista = {
+    nome: 'Leonardo Madeira',
+    contaBancaria: contaBancaria,
+    contatos: ['34567892','98765432']
+}
+
+correntista.contaBancaria.depositar(3000)
+console.log(correntista)
