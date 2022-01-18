@@ -3,7 +3,6 @@ let nome: string = 'Léo'
 // nome = 25
 console.log(nome)
 
-
 //numbers
 let idade: number = 25
 idade = 24.5
@@ -70,3 +69,51 @@ function multiplicar(n1: number, n2: number): number{
 }
 
 console.log(multiplicar(5,5))
+
+//objetos
+
+let usuario: { nome: string, idade: number } = {
+    nome: 'Leonardo',
+    idade: 25
+}
+
+console.log(usuario)
+
+usuario = {
+    idade: 35,
+    nome: 'Madeira'
+}
+console.log(usuario)
+
+//checando tipos
+
+let valor = 30
+
+if(typeof valor === "number"){
+    console.log('é um number')
+} else{
+    console.log(typeof valor)
+}
+
+//never
+
+function falha(msg: string): never{
+    //while(true)
+    throw new Error(msg)
+}
+
+const produto ={
+    nome:'Sabão',
+    preco: 4,
+    validarProduto(){
+        if(!this.nome || this.nome.trim().length == 0){
+            falha('Precisa ter um nome')
+        }
+        if(this.preco <=0) {
+            falha('Preço inválido!')
+        }
+    }
+}
+
+produto.validarProduto()
+
