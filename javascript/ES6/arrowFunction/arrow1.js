@@ -14,6 +14,7 @@ helloArrow = () => {
 helloArrow2 = () => `Hello, World! Arrow2` //isso funciona apenas se a função tiver apenas uma instrução.
 
 //********************************************************************************************************/
+
 //Função de seta com parâmetros:
 helloParametro = (val) => `Hello, ${val}`
 
