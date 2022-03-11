@@ -18,6 +18,7 @@ Obj.falar = function () {
 }
 console.log(Obj.falar())
 /***********************************/
+
 // passar função como parametro
 
 function primeiraFunc(segundaFunc) {
@@ -28,5 +29,6 @@ primeiraFunc(function () {
   console.log('Executando...')
 })
 /***************************************************/
+
 //Arrow function:
 let nomeDaVariavel = (x, y) => x + y // essa é a forma que acho mais interessante para criar uma função. Lembrando que criando desssa forma, não precisamos colocar Return e nem chaves {}
