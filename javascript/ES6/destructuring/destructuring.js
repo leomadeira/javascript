@@ -13,7 +13,8 @@ const car  = vehicles[0]
 const truck = vehicles[1]
 const suv = vehicles[2]
 
-/**************************** */
+/*****************************/
+
 //Esta é a nova maneira de atribuir itens de matriz a uma variável:
 const vehicles2 = ['mustang', 'f-150', 'expedition']
 
@@ -25,7 +26,7 @@ const vehicles3 = ['mustang', 'f-150', 'expedition'];
 
 const [car3,, suv3] = vehicles3; // a  desestruturação é útil quando uma função retorna uma matriz:
 
-//*************************************************** */
+//****************************************************/
 
 //Esta é a nova maneira de usar um objeto dentro de uma função:
 const vehiclesClassFunc = {
