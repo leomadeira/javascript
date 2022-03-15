@@ -10,7 +10,6 @@
     /***/
   } // esse é um jeito bacana, nao uso muito
 }
-
 // tbm podemos armazenar em um objeto
 const Obj = {}
 Obj.falar = function () {
