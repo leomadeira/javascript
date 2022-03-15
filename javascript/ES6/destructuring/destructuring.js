@@ -42,6 +42,7 @@ function myVehicle({type, color, brand, model}) {
     const message = `My ${type} is a ${color} ${brand} ${model}`
 }
 
+
 //Outro exemplo:
 const vehicleOne = {
     brand: 'Ford',
