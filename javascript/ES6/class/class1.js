@@ -1,6 +1,7 @@
 // Uma classe é um tipo de função, mas em vez de usar a palavra function- chave para iniciá-la, usamos a palavra-chave classe as propriedades são atribuídas dentro de um constructor()método.
 
 //Constructor de classe simples
+
 class Car {
     constructor(name){  //constructor(CONSTRUTOR)
         this.brand = name; // brand(MARCA)
@@ -13,7 +14,6 @@ class Car {
 //Crie um objeto chamado "mycar" com base na classe Car:
 
 const mycar = new Car("Lamborghini");
-
 //****************************************************************************************************************************/
 //# Herança de classe #//
 
