@@ -12,6 +12,7 @@
 }
 // tbm podemos armazenar em um objeto
 
+
 const Obj = {}
 Obj.falar = function () {
   return 'Olá, mundo!'
