@@ -7,8 +7,6 @@ class Car {
         this.brand = name; // brand(MARCA)
     }
 }
-
-
 //Obs:
 //Observe o caso do nome da classe. Começamos o nome, "Carro", com um caractere maiúsculo. Esta é uma convenção de nomenclatura padrão para classes.
 
