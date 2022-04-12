@@ -22,7 +22,6 @@ helloArrow2 = () => `Hello, World! Arrow2` //isso funciona apenas se a função 
 //Função de seta com parâmetros:
 helloParametro = (val) => `Hello, ${val}`
 
-
 //se você tiver apenas um parâmetro, também poderá pular os parênteses:
 helloParametro2 = val2 => `Hello, ${val2}`
 
