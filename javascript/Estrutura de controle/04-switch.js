@@ -2,6 +2,7 @@ const imprimirNota = nota => {
   switch (
     Math.ceil(nota) // Switch não trabalha com floot, então precisamos colocar um math.ceil() para arredondar a nota ou colocar um Math.floor().
   ) {
+      
     case 10: //Se não colocar um break em cada case, ele vai executar os de baixo ate chegar no break.
     case 9:
       console.log(`ALUNO EXCELENTE, APROVADO! ${nota} pontos`)
