@@ -30,4 +30,5 @@ const imprimirNota = nota => {
       break
   }
 }
+
 imprimirNota()
